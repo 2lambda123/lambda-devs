@@ -1,0 +1,199 @@
+repo_name: 2lambda123/lambda-devs
+report_id: 6261eb404eb99237546d9fe47db688b7
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:20:05+00:00'
+requested_by: alios
+provider: github
+branch: master
+detected_tools_count: 15
+tools:
+- name: Haskell
+  description: An advanced purely-functional programming language
+  website_url: http://www.haskell.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1069/oCgm29k9.png
+  detection_source_url: https://github.com/2lambda123/lambda-devs
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/lambda-devs
+  detection_source: Repo Metadata
+- name: HUnit
+  description: HUnit is a unit testing framework for Haskell
+  package_url: http://hackage.haskell.org/HUnit
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/2lambda123/lambda-devs/blob/master/lambda-devs.cabal
+  detection_source: lambda-devs.cabal
+  last_updated_by: Markus Barenhoff
+  last_updated_on: 2013-11-24 18:47:53.000000000 Z
+- name: QuickCheck
+  description: |-
+    QuickCheck is a library for random testing of program properties.
+    The programmer provides a specification of the program
+  package_url: http://hackage.haskell.org/QuickCheck
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/2lambda123/lambda-devs/blob/master/lambda-devs.cabal
+  detection_source: lambda-devs.cabal
+  last_updated_by: Markus Barenhoff
+  last_updated_on: 2013-11-24 18:47:53.000000000 Z
+- name: SafeSemaphore
+  description: This provides a much safer semaphore than the QSem
+  package_url: http://hackage.haskell.org/SafeSemaphore
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/2lambda123/lambda-devs/blob/master/lambda-devs.cabal
+  detection_source: lambda-devs.cabal
+  last_updated_by: Markus Barenhoff
+  last_updated_on: 2013-12-09 22:41:48.000000000 Z
+- name: base
+  package_url: http://hackage.haskell.org/base
+  version: '4.6'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/2lambda123/lambda-devs/blob/master/lambda-devs.cabal
+  detection_source: lambda-devs.cabal
+  last_updated_by: Markus Barenhoff
+  last_updated_on: 2013-11-24 18:47:53.000000000 Z
+- name: binary
+  description: Efficient
+  package_url: http://hackage.haskell.org/binary
+  version: '0.5'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/2lambda123/lambda-devs/blob/master/lambda-devs.cabal
+  detection_source: lambda-devs.cabal
+  last_updated_by: Markus Barenhoff
+  last_updated_on: 2013-11-24 18:47:53.000000000 Z
+- name: containers
+  description: Assorted concrete container types
+  package_url: http://hackage.haskell.org/containers
+  version: '0.5'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/2lambda123/lambda-devs/blob/master/lambda-devs.cabal
+  detection_source: lambda-devs.cabal
+  last_updated_by: Markus Barenhoff
+  last_updated_on: 2013-11-24 18:47:53.000000000 Z
+- name: dimensional
+  description: |-
+    Dimensional is a library providing data types for performing arithmetic
+    with physical quantities and units
+  package_url: http://hackage.haskell.org/dimensional
+  version: '0.12'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/2lambda123/lambda-devs/blob/master/lambda-devs.cabal
+  detection_source: lambda-devs.cabal
+  last_updated_by: Markus Barenhoff
+  last_updated_on: 2013-12-09 22:41:48.000000000 Z
+- name: distributed-process
+  description: This is an implementation of Cloud Haskell
+  package_url: http://hackage.haskell.org/distributed-process
+  version: '0.4'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/2lambda123/lambda-devs/blob/master/lambda-devs.cabal
+  detection_source: lambda-devs.cabal
+  last_updated_by: Markus Barenhoff
+  last_updated_on: 2013-11-24 18:47:53.000000000 Z
+- name: numtype
+  description: This package provides unary type level representations of the
+  package_url: http://hackage.haskell.org/numtype
+  version: '1.0'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/2lambda123/lambda-devs/blob/master/lambda-devs.cabal
+  detection_source: lambda-devs.cabal
+  last_updated_by: Markus Barenhoff
+  last_updated_on: 2013-11-24 18:47:53.000000000 Z
+- name: stm
+  description: |-
+    Software Transactional Memory, or STM, is an abstraction for
+    concurrent communication
+  package_url: http://hackage.haskell.org/stm
+  version: '2.4'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/2lambda123/lambda-devs/blob/master/lambda-devs.cabal
+  detection_source: lambda-devs.cabal
+  last_updated_by: Markus Barenhoff
+  last_updated_on: 2013-11-16 11:31:54.000000000 Z
+- name: test-framework
+  description: Allows tests such as QuickCheck properties and HUnit test cases to
+    be assembled into test groups
+  package_url: http://hackage.haskell.org/test-framework
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/2lambda123/lambda-devs/blob/master/lambda-devs.cabal
+  detection_source: lambda-devs.cabal
+  last_updated_by: Markus Barenhoff
+  last_updated_on: 2013-11-24 18:47:53.000000000 Z
+- name: test-framework-hunit
+  description: HUnit support for the test-framework package
+  package_url: http://hackage.haskell.org/test-framework-hunit
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/2lambda123/lambda-devs/blob/master/lambda-devs.cabal
+  detection_source: lambda-devs.cabal
+  last_updated_by: Markus Barenhoff
+  last_updated_on: 2013-11-24 18:47:53.000000000 Z
+- name: test-framework-quickcheck2
+  description: QuickCheck2 support for the test-framework package
+  package_url: http://hackage.haskell.org/test-framework-quickcheck2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/2lambda123/lambda-devs/blob/master/lambda-devs.cabal
+  detection_source: lambda-devs.cabal
+  last_updated_by: Markus Barenhoff
+  last_updated_on: 2013-11-24 18:47:53.000000000 Z
